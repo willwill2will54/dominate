@@ -770,6 +770,16 @@ class param(html_tag):
   is_single = True
 
 
+class picture(html_tag):
+    '''
+    The picture element is a container which provides multiple sources to its
+    contained img element to allow authors to declaratively control or give
+    hints to the user agent about which image resource to use, based on the
+    screen pixel density, viewport size, image format, and other factors. It
+    represents its children.
+    '''
+
+
 class video(html_tag):
   '''
   A video element is used for playing videos or movies, and audio files with
